@@ -34,9 +34,9 @@ export default function Home() {
 
             <div className="fuck-my-life">
                 <InputModifier name={"title"} callback={setItemTitle}/>
-                <InputModifier name={"duration"} callback={setItemTitle}/>
-                <InputModifier name={"description"}/>
-                <InputModifier name={"modificator"}/>
+                <InputModifier name={"duration"} callback={setItemDuration}/>
+                <InputModifier name={"description"} callback={setItemDescription}/>
+                <InputModifier name={"modificator"} callback={setModificator}/>
 
                 <span>(leave any line empty if you dont want it to appear)</span>
             </div>
