@@ -1,0 +1,11 @@
+{
+    "search.exclude": {
+        "**/.next": true,
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true
+}
